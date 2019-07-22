@@ -13,14 +13,12 @@ function fibonacci(x){
             index++;
         }
         if(x<seq[index] + seq[index+1])
-            break;
+            return seq.toString();
     }
 
-    console.log(seq.toString());
 }
 
 
 //Change the variable found in the function call to specify "x"
 //Default console.log for the output
-
-fibonacci(6);
+console.log(fibonacci(6));
